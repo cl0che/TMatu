@@ -1,0 +1,352 @@
+- question: "Plutôt dans le domaine du sport? sport/autre"
+  si_categories:
+    - santé
+  reponses:
+    sport:
+      categories:
+        - sport/médical
+        - sport/paramédical
+        - sport/santé (généralités)
+        - sport/sport
+        - sport/travail social
+
+- question: "Avez-vous une sensibilité artistique ou aimez-vous exprimer votre créativité à travers des formes visuelles, sonores ou écrites?"
+  description: ''
+  categories_ajout:
+    -
+
+- question: "Enseignement ou tourisme"
+  si_categories:
+    - enseignement / tourisme
+  reponses:
+    enseignement:
+      categories:
+        - enseignement/enseignement
+        - enseignement/langues
+        - enseignement/lettres
+        - langues
+        - lettres
+        - linguistique
+
+- question: "Préférez-vous travailler sur des machines et systèmes mécaniques ou sur des technologies électriques et numériques  ?"
+  si_categories:
+      -  électrique / numérique
+  reponses:
+    électrique:
+      categories:
+        - informatique
+        - internet/bases de données
+        - internet/développement
+        - internet/informatique (généralités)
+        - internet/informatique de gestion
+        - internet/informatique industrielle et technologique
+        - internet/informatique pour la recherche
+        - internet/systèmes et réseaux
+        - logiciel
+        - robotique/télécommunications
+        - robotique/électronique
+        - robotique/électrotechnique
+        - électricité
+        - électronique
+
+- question: "Préférez-vous vous occuper des animaux ou des humains?"
+  si_categories:
+    - santé
+  reponses:
+    animaux:
+      categories:
+        - agriculture
+        - animaux/agriculture (généralités)
+        - animaux/cultures
+        - animaux/développement agricole
+        - animaux/forêt
+        - animaux/pêche
+        - animaux/soins aux animaux
+        - animaux/élevage
+
+- question: "Préférez-vous vous concentrer sur la production de ressources (agriculture, énergie, alimentation) ou sur la protection de l’environnement (écologie, durabilité) ?"
+  si_categories:
+    - production
+  reponses:
+     production:
+       categories:
+        - agriculture
+        - aquaculture
+        - fabrication
+        - industries/agroalimentaire
+        - industries/bois
+        - industries/céramique
+        - industries/fabrication
+        - industries/fonction production (généralités)
+        - industries/génie industriel
+        - industries/maintenance
+        - industries/matériaux
+        - industries/mines et carrières
+        - industries/métallurgie
+        - industries/méthodes industrialisation
+        - industries/papier
+        - industries/plasturgie
+        - industries/textile
+        - industries/verre
+        - industries/études et développement
+        - matières premières
+        - mécanique/automatismes
+        - mécanique/automobile
+        - mécanique/aéronautique
+        - mécanique/construction navale
+        - mécanique/engins
+        - mécanique/machinisme agricole
+        - mécanique/mécanique (généralités)
+        - mécanique/travail des métaux
+        - travaux publics/agencement
+        - travaux publics/ameublement
+        - travaux publics/architecture
+        - travaux publics/bureau d'études btp
+        - travaux publics/charpente
+        - travaux publics/finition
+        - travaux publics/génie civil
+        - travaux publics/maçonnerie
+        - travaux publics/menuiserie
+        - travaux publics/plâtrerie
+        - travaux publics/travaux publics
+        - travaux publics/équipement technique
+        - énergies
+
+- question: "Préférez-vous travailler avec des chiffres et données ou avec des personnes et relations ?"
+  si_categories:
+    - chiffres
+  reponses:
+    chiffres:
+      categories:
+        - assurances
+        - comptabilité/administration de l'entreprise
+        - comptabilité/comptabilité
+        - comptabilité/ressources humaines
+        - comptabilité/secrétariat
+        - marketing
+        - vente
+        - vente/commerce international
+        - vente/grande distribution et petits commerces
+        - vente/marketing
+        - économie
+- question: "Préférez-vous travailler dans un univers indépendant et personnel (artiste, auteur) ou dans un univers collaboratif // influencer/opinionner (cinéma, agence, médias) ?"
+  si_categories:
+    - independant
+  reponses:
+     independant:
+       categories:
+         - artisanat/activités culturelles
+         - artisanat/artisanat d'art
+         - artisanat/arts appliqués
+         - artisanat/arts du spectacle
+         - artisanat/arts graphiques
+         - artisanat/arts plastiques
+         - artisanat/commerce de l'art
+         - artisanat/histoire de l'art
+         - artisanat/restauration d'art
+         - arts
+         - habillement
+- question: "Préférez-vous aider des personnes ou plutot comprendre le fonctionnement des personnes ou de ce qui nous entoure?"
+  si_categories:
+    - comprendre
+  reponses:
+     comprendre:
+       categories:
+         - psychologie
+         - sciences/biologie
+         - sciences/chimie
+         - sciences/mathématiques
+         - sciences/physique
+         - sciences/sciences de l'univers
+         - sciences/sciences de la terre
+         - social
+         - sociologie/géographie
+         - sociologie/histoire
+         - sociologie/psychologie
+         - sociologie/sciences humaines et sociales (généralités)
+         - sociologie/sciences sociales
+
+- question: "Êtes-vous plus attiré par la création/conception (innovation, design technique) ou par l’exécution/maintenance (réparation, suivi technique) ?"
+  si_categories:
+      -  exécution
+  reponses:
+    exécution:
+      categories:
+        - béton armé
+        - construction
+        - construction (généralités)
+        - fabrication
+        - industries/agroalimentaire
+        - industries/bois
+        - industries/céramique
+        - industries/fabrication
+        - industries/fonction production (généralités)
+        - industries/génie industriel
+        - industries/maintenance
+        - industries/matériaux
+        - industries/mines et carrières
+        - industries/métallurgie
+        - industries/méthodes industrialisation
+        - industries/papier
+        - industries/plasturgie
+        - industries/textile
+        - industries/verre
+        - matières premières
+        - mécanique/automatismes
+        - mécanique/automobile
+        - mécanique/aéronautique
+        - mécanique/construction navale
+        - mécanique/engins
+        - mécanique/machinisme agricole
+        - mécanique/mécanique (généralités)
+        - mécanique/travail des métaux
+        - propreté/aménagement du territoire
+        - propreté/aménagement paysager
+        - propreté/déchets
+        - propreté/environnement (généralités)
+        - propreté/gestion de l'eau
+        - propreté/propreté
+        - propreté/protection des espaces naturels
+        - propreté/urbanisme
+        - propreté/énergies
+        - transport/logistique
+        - transport/transport
+        - travaux publics/agencement
+        - travaux publics/ameublement
+        - travaux publics/architecture
+        - travaux publics/bureau d'études btp
+        - travaux publics/charpente
+        - travaux publics/finition
+        - travaux publics/génie civil
+        - travaux publics/maçonnerie
+        - travaux publics/menuiserie
+        - travaux publics/plâtrerie
+        - travaux publics/travaux publics
+        - travaux publics/équipement technique
+
+- question: "Préférez-vous défendre la société ou des personnes?"
+  si_categories:
+    - société // droit
+  reponses:
+    société:
+      categroies:
+        - armée
+        - droit
+        - politique/activité judiciaire
+        - politique/droit (généralités)
+        - politique/droit appliqué
+        - politique/droit public
+        - politique/droit social
+        - politique/sciences politiques
+        - politique/sciences économiques
+        - sécurité/défense publique
+        - sécurité/sécurité
+
+- question: "Souhaitez-vous soigner les autres et travailler dans le domaine médical ?"
+  categories_retrait:
+    - sociologie/psychologie
+    - sport/médical
+    - sport/paramédical
+    - sport/santé (généralités)
+
+- question: "Êtes-vous attiré par le social et l’aide aux personnes ?"
+  categories_retrait:
+    - sport/médical
+    - sport/paramédical
+    - sport/santé (généralités)
+    - animaux/soins aux animaux
+    - santé
+
+- question: "Êtes-vous attiré pour le travail manuel en extérieur ?"
+  categories_retrait:
+    - travaux publics/bureau d'études btp
+    - travaux publics/architecture
+    - industries/bois
+    - industries/céramique
+    - industries/fabrication
+    - industries/matériaux
+    - industries/papier
+    - industries/plasturgie
+    - industries/textile
+    - industries/verre
+    - industries/métallurgie
+    - propreté/déchets
+    - propreté/environnement (généralités)
+    - propreté/gestion de l'eau
+    - propreté/propreté
+    - propreté/protection des espaces naturels
+    - propreté/urbanisme
+    - propreté/énergies
+
+- question: "Voulez-vous travailler à l'international?"
+  categories_ajout:
+    - culture
+    - langues
+    - lettres
+    - linguistique
+    - tourisme/hôtellerie
+    - tourisme/restauration
+    - tourisme/tourisme
+    - vente/commerce international
+
+- question: "Aimeriez-vous travailler dans les arts?"
+  categories_retrait:
+    - industries/bois
+    - industries/céramique
+    - industries/fabrication
+    - industries/matériaux
+    - industries/papier
+    - industries/plasturgie
+    - industries/textile
+    - industries/verre
+    - industries/métallurgie
+    - matières premières
+    - mécanique/automatismes
+    - mécanique/automobile
+    - mécanique/aéronautique
+    - mécanique/construction navale
+    - mécanique/engins
+    - mécanique/machinisme agricole
+    - mécanique/mécanique (généralités)
+    - mécanique/travail des métaux
+    - qualité
+
+- question: "Voulez-vous travailler dans la création de quelque chose d'artistique? (vs travailler autour de l'art)"
+  categories_retrait:
+    - artisanat/activités culturelles
+    - artisanat/commerce de l'art
+    - artisanat/histoire de l'art
+    - artisanat/restauration d'art
+
+- question: "Vous aimez écrire, informer ou raconter des histoires ?"
+  categories_retrait:
+    -
+
+- question: "Aimez-vous l'audio-visuel?"
+  categories_retrait:
+
+- question: "Êtes-vous passionné par la compréhension des comportements humains ?"
+  categories_retrait:
+
+- question: "Êtes-vous intéressé par la culture, le voyage et la découverte ?"
+  categories:
+    - tourisme/hôtellerie
+    - tourisme/restauration
+    - tourisme/tourisme
+    - hôtellerie-restauration
+
+- question: "Préférez-vous travailler avec les chiffres ou dans la gestion humaine ?--> chiffres"
+  categories_retrait:
+    - vente
+    - vente/achat
+    - vente/commerce international
+    - vente/grande distribution et petits commerces
+    - vente/marketing
+
+- question: "Préférez-vous traviller dans la prévention des risques ou dans la défence nationale/armée?-->prévention"
+  categories_retrait:
+    - prévention
+
+- question: "Êtes-vous passionné par la compréhension des comportements humains ?--> sociologie"
+
+- question: "Êtes-vous interessé par le travail dans la recherche?"
