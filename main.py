@@ -80,7 +80,12 @@ def show_jobs(categories: list):
             if category in _item['categories']:
                 _jobs.add(_item['metier'])
 
-    for job in _jobs:
+    # Tri des résultats
+    _jobs_lst: list = list(_jobs)
+    _jobs_lst.sort()
+
+    # Affichage des métiers
+    for job in _jobs_lst:
         print(f" - " + colored.cyan(job))
 
 
