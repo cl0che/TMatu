@@ -8,12 +8,7 @@
     - sport/sport
     - sport/travail social
     - social
-    - sport/travail social
-
-
-- domain: Commerce
-  categories:
-    - artisanat/commerce de l'art
+    - sociologie/psychologie
 
 - domain: Agriculture
   categories:
@@ -140,6 +135,7 @@
 
 - domain: Commerce, vente et marketing
   categories:
+    - artisanat/commerce de l'art
     - commerce
     - vente
     - vente/achat
@@ -167,7 +163,7 @@
     - enseignement/langues
     - enseignement/lettres
     - sciences/biologie
-    - sciences/chimi
+    - sciences/chimie
     - sciences/mathématiques
     - sciences/physique
     - sciences/sciences de l'univers

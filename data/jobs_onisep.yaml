@@ -7979,11 +7979,13 @@
   - social
   - sport/sport
   metier: lad-jockey, lad-driver
+
 - categories:
   - commerce
   - marketing
   - vente/grande distribution et petits commerces
   metier: libraire
+
 - categories:
   - audiovisuel/bibliothèque
   - documentation
@@ -7992,11 +7994,13 @@
   - social
   - sport/travail social
   metier: ludothécaire
+
 - categories:
   - logistique
   - transport/logistique
   - transport/transport
   metier: magasinier / magasinière cariste
+
 - categories:
   - hôtellerie-restauration
   - tourisme/restauration

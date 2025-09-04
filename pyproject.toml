@@ -5,4 +5,5 @@ description = "Travail de maturité de Chloé"
 requires-python = ">=3.13"
 dependencies = [
     "clint>=0.5.1",
+    "pyaml>=6.0.2",
 ]

@@ -20,7 +20,5 @@ uv sync
 Exécution:
 
 ````shell
-python main.py
-# ou 
 uv run main.py
 ````
