@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta charset="UTF-8">
+    <title>Choix de métier</title>
+</head>
+<body>
+    <h1>Quel métiers sont fait pour moi?</h1>
+    <form action="/submit" method="post">
+        {% for question in questions %}
+            <div>
+                <h3>{{ question.question }}</h3>
+                {% for option in question.options %}
+                    <input type="radio" name="question{{ i }}" value="{{ option }}" required> {{ option }}<br>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <br>
+        <button type="submit">Soumettre</button>
+    </form>
+</body>
+</html>
