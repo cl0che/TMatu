@@ -5,7 +5,7 @@
 Mise en place de l'environnement:
 
 ````shell
-# Installer uv
+# Installer uv MacOS
 brew install uv
 
 # Créer l'environnement virtuel
@@ -17,7 +17,7 @@ source .venv/bin/activate
 uv sync
 ````
 
-Exécution:
+Exécution en mode texte:
 
 ````shell
 uv run main.py
