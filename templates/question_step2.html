@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="static/styles.css">
+    <meta charset="UTF-8">
+    <title>Choix de métier</title>
+</head>
+
+<body>
+    <form action="{{ url_for('ask_step2') }}" method="post">
+        <fieldset>
+            <legend><h4>Affiner vos choix</h4></legend>
+            <div><h2>{{ question }}</h2> <i>{{ domain }}</i></div>
+            <input type="submit" name="answer" id="oui" value="Oui">
+            <input type="submit" name="answer" id="non" value="Non">
+        </fieldset>
+    </form>
+<div>{{categories}}</div>
+</body>
+</html>

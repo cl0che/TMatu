@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="static/styles.css">
+    <meta charset="UTF-8">
+    <title>Résultats</title>
+</head>
+<body>
+    <h1>Etape 1 terminée !</h1>
+    <h2>Vos réponses:</h2>
+    <ul>
+        {% for question, answer in answers.items() %}
+        <li>{{ question }}: <strong>{{ answer }}</strong></li>
+        {% endfor %}
+    </ul>
+    <p><a href="{{ url_for('start_step2') }}">Etape suivante</a></p>
+    <p><a href="{{ url_for('start_survey') }}">Recommencer</a></p>
+</body>
+</html>

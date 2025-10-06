@@ -2,8 +2,6 @@
   description: ''
   categories_ajout:
     - architecture
-    - artisanat/arts graphiques
-    - artisanat/commerce de l'art
     - assurances
     - audiovisuel/audiovisuel
     - audiovisuel/bibliothèque
@@ -18,22 +16,13 @@
     - comptabilité/comptabilité
     - comptabilité/ressources humaines
     - comptabilité/secrétariat
-    - couverture
-    - culture
     - documentation
     - droit
-    - enseignement/enseignement
-    - enseignement/langues
-    - enseignement/lettres
-    - environnement
     - gestion des entreprises
-    - histoire-géographie
-    - hôtellerie-restauration
     - immobilier/assurances
     - immobilier/banque
     - immobilier/finances
     - immobilier/immobilier
-    - industries/agroalimentaire
     - industries/bois
     - industries/céramique
     - industries/fabrication
@@ -75,35 +64,26 @@
     - pollutions et risques
     - programmation
     - prévention
-    - psychologie
     - publicité
     - qualité
     - robotique/télécommunications
     - robotique/électronique
     - robotique/électrotechnique
-    - santé
     - sciences/biologie
     - sciences/chimie
     - sciences/mathématiques
     - sciences/physique
     - sciences/sciences de l'univers
     - sciences/sciences de la terre
-    - social
     - sociologie/géographie
     - sociologie/histoire
     - sociologie/psychologie
     - sociologie/sciences humaines et sociales (généralités)
     - sociologie/sciences sociales
-    - vente
-    - vente/achat
     - vente/commerce international
-    - vente/grande distribution et petits commerces
     - vente/marketing
-    - économie
-    - édition
     - électricité
     - électronique
-    - énergies
 
 - question: "Prenez vous du plaisir dans la création d’œuvres ou d’objets?"
   description: ''
@@ -140,7 +120,7 @@
     - mécanique/travail des métaux
     - qualité
 
-- question: "Aimez vous transmettre ce que vous savez/vos connaissances?"
+- question: "Aimez vous transmettre ce que vous savez / vos connaissances?"
   description: Cela concerne les métiers de l'enseignement, de la formation
   categories_ajout:
     - enseignement/enseignement
@@ -162,13 +142,10 @@
     - audiovisuel/journalisme
     - audiovisuel/multimédia
     - audiovisuel/technologies de l'information
-    - banque
-    - commerce
     - comptabilité/administration de l'entreprise
     - comptabilité/comptabilité
     - comptabilité/ressources humaines
     - comptabilité/secrétariat
-    - documentation
     - enseignement/enseignement
     - enseignement/langues
     - enseignement/lettres
@@ -227,20 +204,13 @@
 - question: "Accordez-vous une grande importance aux technologies et outils numériques dans votre futur métier?"
   description: Domaines liés à l’informatique, l’ingénierie, les sciences de données, la cybersécurité.
   categories_ajout:
-    - animaux/développement agricole
     - artisanat/arts graphiques
     - audiovisuel/audiovisuel
-    - audiovisuel/bibliothèque
     - audiovisuel/communication
     - audiovisuel/industries graphiques
-    - audiovisuel/journalisme
     - audiovisuel/multimédia
     - audiovisuel/technologies de l'information
     - banque
-    - commerce
-    - comptabilité/administration de l'entreprise
-    - comptabilité/comptabilité
-    - comptabilité/secrétariat
     - information-communication
     - informatique
     - internet/bases de données
@@ -251,7 +221,6 @@
     - internet/informatique pour la recherche
     - internet/systèmes et réseaux
     - logiciel
-    - logistique
     - programmation
     - robotique/télécommunications
     - robotique/électronique
@@ -294,7 +263,6 @@
     - sport/médical
     - sport/paramédical
     - sport/santé (généralités)
-
 
 - question: "Aimez-vous manipuler des outils, réparer, construire ou concevoir des objets/machines?"
   description: BTP, mécanique, électricité, électronique, industrie, métiers manuels spécialisés.
