@@ -22,18 +22,19 @@
 - question: "Préferez-vous concevoir des solutions environnementales?"
   domain: Environnement
   categories_retrait_oui:
+    - environnement
+    - propreté/déchets
+    - propreté/environnement (généralités)
+    - propreté/propreté
+    - pollutions et risques
+  categories_retrait_non:
+    - environnement
     - propreté/aménagement du territoire
     - propreté/aménagement paysager
     - propreté/gestion de l'eau
     - propreté/protection des espaces naturels
     - propreté/urbanisme
-  categories_retrait_non:
-    - environnement
-    - propreté/déchets
-    - propreté/environnement (généralités)
-    - propreté/propreté
     - propreté/énergies
-    - pollutions et risques
 
 
 ######################################
@@ -42,12 +43,6 @@
 - question: "Préferez-vous la conception à la réalisation?"
   domain: BTP, archicture et travaux publics
   categories_retrait_oui:
-    - architecture
-    - travaux publics/ameublement
-    - travaux publics/architecture
-    - travaux publics/bureau d'études BTP
-    - travaux publics/génie civil
-  categories_retrait_non:
     - publics
     - béton armé
     - construction
@@ -61,6 +56,15 @@
     - travaux publics/plâtrerie
     - travaux publics/travaux publics
     - travaux publics/équipement technique
+  categories_retrait_non:
+    - architecture
+    - publics
+    - construction
+    - travaux publics/agencement
+    - travaux publics/ameublement
+    - travaux publics/architecture
+    - travaux publics/bureau d'études btp
+    - travaux publics/génie civil
 
 
 ######################################
@@ -69,10 +73,16 @@
 - question: "Préferez-vous la conception à la réalisation?"
   domain: Industrie, fabrication et artisanat
   categories_retrait_oui:
-    - industries/génie industriel
-    - industries/méthodes industrialisation
-    - industries/études et développement
-  categories_retrait_non:
+    - arts
+    - artisanat/activités culturelles
+    - artisanat/artisanat d'art
+    - artisanat/arts appliqués
+    - artisanat/arts du spectacle
+    - artisanat/arts graphiques
+    - artisanat/arts plastiques
+    - artisanat/commerce de l'art
+    - artisanat/histoire de l'art
+    - artisanat/restauration d'art
     - industries/agroalimentaire
     - industries/bois
     - industries/céramique
@@ -87,31 +97,17 @@
     - industries/textile
     - industries/verre
     - fabrication
-    - artisanat/activités culturelles
-    - artisanat/artisanat d'art
-    - artisanat/arts appliqués
-    - artisanat/arts du spectacle
-    - artisanat/arts graphiques
-    - artisanat/arts plastiques
-    - artisanat/commerce de l'art
-    - artisanat/histoire de l'art
-    - artisanat/restauration d'art
     - composites
     - carton
+  categories_retrait_non:
+    - arts
+    - industries/génie industriel
+    - industries/méthodes industrialisation
+    - industries/études et développement
 
 - question: "Préférez-vous produire en petites séries avec un savoir-faire unique ?"
   domain: Industrie, fabrication et artisanat
   categories_retrait_oui:
-    - artisanat/activités culturelles
-    - artisanat/artisanat d'art
-    - artisanat/arts appliqués
-    - artisanat/arts du spectacle
-    - artisanat/arts graphiques
-    - artisanat/arts plastiques
-    - artisanat/commerce de l'art
-    - artisanat/histoire de l'art
-    - artisanat/restauration d'art
-  categories_retrait_non:
     - industries/agroalimentaire
     - industries/bois
     - industries/céramique
@@ -131,7 +127,17 @@
     - fabrication
     - composites
     - carton
-
+  categories_retrait_non:
+    - arts
+    - artisanat/activités culturelles
+    - artisanat/artisanat d'art
+    - artisanat/arts appliqués
+    - artisanat/arts du spectacle
+    - artisanat/arts graphiques
+    - artisanat/arts plastiques
+    - artisanat/commerce de l'art
+    - artisanat/histoire de l'art
+    - artisanat/restauration d'art
 
 
 ######################################
@@ -140,30 +146,33 @@
 - question: "Souhaitez-vous soigner les autres et travailler dans le domaine médical ?"
   domain: Santé
   categories_retrait_oui:
+    - sport/esthétique
+    - sport/sport
+  categories_retrait_non:
     - santé
+    - social
+    - sociologie/psychologie
+    - sociologie/sciences humaines et sociales (généralités)
+    - sociologie/sciences sociales
     - sport/médical
     - sport/paramédical
     - sport/santé (généralités)
-    - sociologie/psychologie
-  categories_retrait_non:
-    - sport/esthétique
-    - sport/sport
-    - social
     - sport/travail social
 
 - question: "Etes-vous interessé par le domaine sportif ?"
   domain: Santé
   categories_retrait_oui:
-    - sport/esthétique
-    - sport/médical
-    - sport/santé (généralités)
-    - sport/sport
-    - sport/travail social
-  categories_retrait_non:
     - santé
     - sport/paramédical
     - social
     - sociologie/psychologie
+  categories_retrait_non:
+    - sport/esthétique
+    - sport/sport
+    - sport/médical
+    - sport/paramédical
+    - sport/santé (généralités)
+    - sport/travail social
 
 
 ######################################
@@ -172,15 +181,16 @@
 - question: "Aimez-vous être en relation directe avec les clients ?"
   domain: Commerce, vente et marketing
   categories_retrait_oui:
-    - artisanat/commerce de l'art
-    - commerce
-    - vente
-    - vente/grande distribution et petits commerces
+    - marketing
   categories_retrait_non:
     - vente/achat
     - vente/commerce international
     - vente/marketing
-    - marketing
+    - vente/grande distribution et petits commerces
+    - artisanat/commerce de l'art
+    - commerce
+    - vente
+    - vente/grande distribution et petits commerces
 
 
 ######################################
@@ -189,25 +199,26 @@
 - question: "Etes-vous interessé par l'écriture?"
   domain: Communication, médias et audiovisuel
   categories_retrait_oui:
-    - audiovisuel/bibliothèque
-    - audiovisuel/communication
-    - audiovisuel/journalisme
-    - publicité
-    - édition
-    - documentation
-  categories_retrait_non:
     - audiovisuel/audiovisuel
     - audiovisuel/industries graphiques
     - audiovisuel/multimédia
+  categories_retrait_non:
+    - audiovisuel/bibliothèque
+    - audiovisuel/communication
+    - audiovisuel/journalisme
+    - audiovisuel/technologies de l'information
     - information-communication
+    - publicité
+    - édition
+    - documentation
 
 - question: "Etes-vous interessé par l'audio/video?"
   domain: Communication, médias et audiovisuel
   categories_retrait_oui:
-    - audiovisuel/audiovisuel
-    - audiovisuel/industries graphiques
-    - audiovisuel/multimédia
-    - publicité
+    - audiovisuel/bibliothèque
+    - audiovisuel/communication
+    - audiovisuel/journalisme
+    - audiovisuel/technologies de l'information
   categories_retrait_non:
     - audiovisuel/bibliothèque
     - audiovisuel/communication
@@ -215,6 +226,10 @@
     - information-communication
     - édition
     - documentation
+    - audiovisuel/audiovisuel
+    - audiovisuel/industries graphiques
+    - audiovisuel/multimédia
+    - publicité
 
 
 ######################################
@@ -241,13 +256,6 @@
 - question: "Votre intérêt porte-t-il davantage sur la configuration/programmation de systèmes automatisés ?"
   domain: Mécanique, électricité, électronique et robotique
   categories_retrait_oui:
-    - robotique/télécommunications
-    - robotique/électronique
-    - robotique/électrotechnique
-    - électricité
-    - électronique
-  categories_retrait_non:
-    - mécanique/automatismes
     - mécanique/automobile
     - mécanique/aéronautique
     - mécanique/construction navale
@@ -255,6 +263,13 @@
     - mécanique/machinisme agricole
     - mécanique/mécanique (généralités)
     - mécanique/travail des métaux
+    - robotique/télécommunications
+    - robotique/électronique
+    - robotique/électrotechnique
+    - électricité
+    - électronique
+   categories_retrait_non:
+    - mécanique/automatismes
 
 ######################################
 # Informatique, internet et technologies
@@ -262,18 +277,19 @@
 - question: "Êtes-vous plus attiré(e) par la conception de logiciels, d’applications ou par le développement web"
   domain: Informatique, internet et technologies
   categories_retrait_oui:
+    - informatique
+    - internet/bases de données
+    - internet/systèmes et réseaux
+  categories_retrait_non:
+    - informatique
+    - internet/informatique de gestion
+    - internet/informatique industrielle et technologique
+    - internet/informatique pour la recherche
+    - audiovisuel/technologies de l'information
     - internet/développement
     - internet/informatique (généralités)
     - logiciel
     - programmation
-  categories_retrait_non:
-    - informatique
-    - internet/bases de données
-    - internet/informatique de gestion
-    - internet/informatique industrielle et technologique
-    - internet/informatique pour la recherche
-    - internet/systèmes et réseaux
-    - audiovisuel/technologies de l'information
 
 ######################################
 # Gestion, comptabilité, finances et banque

@@ -1,6 +1,5 @@
 from operator import truediv
 
-import yaml
 from pprint import pprint
 from clint.textui import colored, puts, prompt, validators
 from common import *
@@ -16,20 +15,6 @@ def ask_1(question: dict, categories: list[str]):
         for _category in _to_add:
             if _category not in categories:
                 categories.append(_category)
-
-
-def is_domain_in_user_categories(question_domain: str, user_categories: list[str], all_domains: list):
-    # Les catégories de la question sont elles présentes dans les catégories des réponses de l'utilisateur?
-    for _item in all_domains:
-        if _item['domain'] == question_domain:
-            _question_domains = _item['categories']
-
-            for _user_category in user_categories:
-                if _user_category in _question_domains:
-                    return True
-
-    print(f"  ------> Domain '{question_domain}' is not in user categories, ignoring question")
-    return False
 
 
 def ask_2(question: dict, categories: list[str], domains: list):
