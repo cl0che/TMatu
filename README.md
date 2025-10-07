@@ -17,8 +17,23 @@ source .venv/bin/activate
 uv sync
 ````
 
+---
+
+Exécution en mode graphique:
+
+````shell
+uv run app.py
+````
+puis clickez sur: http://127.0.0.1:5000
+
+Ctrl-C pour arreter.
+
+---
+
 Exécution en mode texte:
 
 ````shell
 uv run main.py
 ````
+
+---
