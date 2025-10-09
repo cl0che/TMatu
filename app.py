@@ -113,7 +113,6 @@ def ask_step2():
         # For a GET request, render the question page
         return render_template('question_step2.html', question=question_text, domain=_domain, categories=categories)
 
-    print(f'Ignore domain {_domain}')
     session['current_question_step2'] += 1
     return redirect(url_for('ask_step2'))
 
