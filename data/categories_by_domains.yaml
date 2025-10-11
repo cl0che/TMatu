@@ -90,7 +90,7 @@
 
 - domain: Mécanique, électricité, électronique et robotique
   categories:
-    -mécanique/automatismes
+    - mécanique/automatismes
     - mécanique/automobile
     - mécanique/aéronautique
     - mécanique/construction navale

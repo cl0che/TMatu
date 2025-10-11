@@ -21,7 +21,12 @@
 
 - question: "Préferez-vous concevoir des solutions environnementales?"
   domain: Environnement
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - propreté/aménagement du territoire
+    - propreté/aménagement paysager
+    - propreté/gestion de l'eau
+    - propreté/protection des espaces naturels
+    - propreté/urbanisme
   categories_retrait_non:
     - environnement
     - propreté/déchets
@@ -36,7 +41,12 @@
 
 - question: "Préferez-vous la conception à la réalisation?"
   domain: BTP, archicture et travaux publics
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - architecture
+    - travaux publics/ameublement
+    - travaux publics/architecture
+    - travaux publics/bureau d'études BTP
+    - travaux publics/génie civil
   categories_retrait_non:
     - publics
     - béton armé
@@ -58,7 +68,10 @@
 
 - question: "Préferez-vous la conception à la réalisation?"
   domain: Industrie, fabrication et artisanat
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - industries/génie industriel
+    - industries/méthodes industrialisation
+    - industries/études et développement
   categories_retrait_non:
     - industries/agroalimentaire
     - industries/bois
@@ -88,7 +101,16 @@
 
 - question: "Préférez-vous produire en petites séries avec un savoir-faire unique ?"
   domain: Industrie, fabrication et artisanat
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - artisanat/activités culturelles
+    - artisanat/artisanat d'art
+    - artisanat/arts appliqués
+    - artisanat/arts du spectacle
+    - artisanat/arts graphiques
+    - artisanat/arts plastiques
+    - artisanat/commerce de l'art
+    - artisanat/histoire de l'art
+    - artisanat/restauration d'art
   categories_retrait_non:
     - industries/agroalimentaire
     - industries/bois
@@ -117,7 +139,12 @@
 
 - question: "Souhaitez-vous soigner les autres et travailler dans le domaine médical ?"
   domain: Santé
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - santé
+    - sport/médical
+    - sport/paramédical
+    - sport/santé (généralités)
+    - sociologie/psychologie
   categories_retrait_non:
     - sport/esthétique
     - sport/sport
@@ -126,7 +153,12 @@
 
 - question: "Etes-vous interessé par le domaine sportif ?"
   domain: Santé
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - sport/esthétique
+    - sport/médical
+    - sport/santé (généralités)
+    - sport/sport
+    - sport/travail social
   categories_retrait_non:
     - santé
     - sport/paramédical
@@ -139,7 +171,11 @@
 
 - question: "Aimez-vous être en relation directe avec les clients ?"
   domain: Commerce, vente et marketing
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - artisanat/commerce de l'art
+    - commerce
+    - vente
+    - vente/grande distribution et petits commerces
   categories_retrait_non:
     - vente/achat
     - vente/commerce international
@@ -152,7 +188,13 @@
 
 - question: "Etes-vous interessé par l'écriture?"
   domain: Communication, médias et audiovisuel
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - audiovisuel/bibliothèque
+    - audiovisuel/communication
+    - audiovisuel/journalisme
+    - publicité
+    - édition
+    - documentation
   categories_retrait_non:
     - audiovisuel/audiovisuel
     - audiovisuel/industries graphiques
@@ -161,7 +203,11 @@
 
 - question: "Etes-vous interessé par l'audio/video?"
   domain: Communication, médias et audiovisuel
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - audiovisuel/audiovisuel
+    - audiovisuel/industries graphiques
+    - audiovisuel/multimédia
+    - publicité
   categories_retrait_non:
     - audiovisuel/bibliothèque
     - audiovisuel/communication
@@ -176,7 +222,15 @@
 
 - question: "Votre intérêt porte-t-il davantage sur la fabrication/réparation de machines?"
   domain: Mécanique, électricité, électronique et robotique
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - mécanique/automatismes
+    - mécanique/automobile
+    - mécanique/aéronautique
+    - mécanique/construction navale
+    - mécanique/engins
+    - mécanique/machinisme agricole
+    - mécanique/mécanique (généralités)
+    - mécanique/travail des métaux
   categories_retrait_non:
     - robotique/télécommunications
     - robotique/électronique
@@ -186,7 +240,12 @@
 
 - question: "Votre intérêt porte-t-il davantage sur la configuration/programmation de systèmes automatisés ?"
   domain: Mécanique, électricité, électronique et robotique
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - robotique/télécommunications
+    - robotique/électronique
+    - robotique/électrotechnique
+    - électricité
+    - électronique
   categories_retrait_non:
     - mécanique/automatismes
     - mécanique/automobile
@@ -202,7 +261,11 @@
 
 - question: "Êtes-vous plus attiré(e) par la conception de logiciels, d’applications ou par le développement web"
   domain: Informatique, internet et technologies
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - internet/développement
+    - internet/informatique (généralités)
+    - logiciel
+    - programmation
   categories_retrait_non:
     - informatique
     - internet/bases de données
@@ -217,7 +280,11 @@
 
 - question: "Avez-vous un interêt pour la gestion financière?"
   domain: Gestion, comptabilité, finances et banque
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - finances
+    - banque
+    - immobilier/banque
+    - immobilier/finances
   categories_retrait_non:
     - gestion des entreprises
     - comptabilité/administration de l'entreprise
@@ -234,7 +301,10 @@
 
 - question: "Avez-vous un interêt pour l'enseignement et la pédagogie?"
   domain: Education, sciences et recherche
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - enseignement/enseignement
+    - enseignement/langues
+    - enseignement/lettres
   categories_retrait_non:
     - sciences/biologie
     - sciences/chimie
@@ -246,7 +316,14 @@
 
 - question: "Avez-vous un interêt pour mener des expériences, analyser des données ou participer à des projets de recherche ?"
   domain: Education, sciences et recherche
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - sciences/biologie
+    - sciences/chimie
+    - sciences/mathématiques
+    - sciences/physique
+    - sciences/sciences de l'univers
+    - sciences/sciences de la terre
+    - internet/informatique pour la recherche
   categories_retrait_non:
     - enseignement/enseignement
     - enseignement/langues
@@ -257,7 +334,8 @@
 
 - question: "Préférez-vous défendre des personnes physiques?"
   domain: Sciences humaines, sociales et juridiques
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - politique/droit privé
   categories_retrait_non:
     - droit
     - politique/activité judiciaire
@@ -281,7 +359,15 @@
 
 - question: "Êtes-vous intéressé(e) par l’étude des sciences sociales et la compréhension des comportements sociaux ?"
   domain: Sciences humaines, sociales et juridiques
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - politique/droit social
+    - politique/sciences politiques
+    - politique/sciences économiques
+    - sociologie/géographie
+    - sociologie/histoire
+    - sociologie/psychologie
+    - sociologie/sciences humaines et sociales (généralités)
+    - sociologie/sciences sociales
   categories_retrait_non:
     - droit
     - politique/activité judiciaire
@@ -298,7 +384,10 @@
 
 - question: "Aimez-vous apprendre de nouvelles langues?"
   domain: Sciences humaines, sociales et juridiques
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - lettres
+    - linguistique
+    - langues
   categories_retrait_non:
     - droit
     - politique/activité judiciaire
@@ -323,14 +412,17 @@
 
 - question: "Avez-vous un interêt pour la protection des populations et des biens au quotidien?"
   domain: Sécurité
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - sécurité/défense publique
+    - sécurité/sécurité
   categories_retrait_non:
     - armée
     - prévention
 
 - question: "Avez-vous un interêt pour la défense nationale et les missions militaires?"
   domain: Sécurité
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - armée
   categories_retrait_non:
     - sécurité/défense publique
     - sécurité/sécurité
@@ -338,7 +430,8 @@
 
 - question: "Préférez-vous travailler sur la prévention, la gestion des risques et la sensibilisation?"
   domain: Sécurité
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - prévention
   categories_retrait_non:
     - sécurité/défense publique
     - sécurité/sécurité
@@ -349,7 +442,8 @@
 
 - question: "Aimez-vous encadrer ou organiser des séjours touristiques?"
   domain: Tourisme, hôtellerie et restauration
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - tourisme/restauration
   categories_retrait_non:
     - hôtellerie-restauration
     - tourisme/hôtellerie
@@ -357,7 +451,9 @@
 
 - question: "Préférez-vous travailler au service de la restauration??"
   domain: Tourisme, hôtellerie et restauration
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - hôtellerie-restauration
+    - tourisme/restauration
   categories_retrait_non:
     - tourisme/hôtellerie
     - tourisme/tourisme
@@ -367,7 +463,8 @@
 
 - question: "Préférez-vous travailler dans le transport de marchandises/personnes?"
   domain: Transport et logistique
-  categories_retrait_oui: []
+  categories_retrait_oui:
+    - transport/transport
   categories_retrait_non:
     - transport/logistique
     - logistique
