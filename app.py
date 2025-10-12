@@ -12,10 +12,6 @@ categories: list[str] = []
 domains: dict = load_domains()
 jobs: list = load_jobs()
 
-# Route pour la page d'accueil (le quiz)
-# @app.route('/')
-# def quiz():
-#     return render_template('index.html', questions=QUESTIONS)
 
 @app.route('/')
 def start_survey():
@@ -172,9 +168,11 @@ def view_results():
 
 if __name__ == '__main__':
     # A secret key is required for session security.
-    app.secret_key = '57dcb026497fbae108daacaac229e8ef'
     # Get the secret key from an environment variable, with a fallback
-    # app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'default_secret_key_for_dev')
+    app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'default_secret_key_for_dev')
+
+    _port = os.environ.get('FLASK_PORT')
+    _host = os.environ.get('FLASK_HOST')
 
     # Le mode debug permet de redémarrer le serveur automatiquement lors des modifications
-    app.run(debug=True)
+    app.run(host=_host, port=_port, debug=False)

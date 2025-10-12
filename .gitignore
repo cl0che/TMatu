@@ -13,3 +13,5 @@ wheels/
 *.iml
 
 .DS_Store
+.env
+nohup.out
