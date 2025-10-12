@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="static/styles.css">
+    <meta charset="UTF-8">
+    <title>Visualisation des résultats</title>
+</head>
+<body>
+
+    <h1>Présentation des résultats</h1>
+    <br>
+    <div>D'après vos réponses, voici la liste des métiers possibles classés par domaines et catégories.</div>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <th>Domain</th>
+            <th>Catégorie</th>
+            <th>Métier</th>
+        </tr>
+{% for d_key, d_value in results.items() %}
+    {% for c_key, c_value in d_value.items() %}
+        {% for job in c_value %}
+        <tr>
+            <td><i>{{ d_key.capitalize() }}</i></td>
+            <td><i>{{ c_key.capitalize() }}</i></td>
+            <td><b>{{ job.capitalize() }}</b></td>
+        </tr>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+    </table>
+
+</body>
+</html>
