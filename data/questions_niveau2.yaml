@@ -268,7 +268,7 @@
     - robotique/électrotechnique
     - électricité
     - électronique
-   categories_retrait_non:
+  categories_retrait_non:
     - mécanique/automatismes
 
 ######################################
