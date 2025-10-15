@@ -24,9 +24,9 @@
     {% for c_key, c_value in d_value.items() %}
         {% for job in c_value %}
         <tr>
-            <td><i>{{ d_key.capitalize() }}</i></td>
-            <td><i>{{ c_key.capitalize() }}</i></td>
-            <td><b>{{ job.capitalize() }}</b></td>
+            <td><i>{{ d_key.capitalize() if d_key is not none }}</i></td>
+            <td><i>{{ c_key.capitalize() if c_key is not none }}</i></td>
+            <td><b>{{ job.capitalize() if job is not none }}</b></td>
         </tr>
         {% endfor %}
     {% endfor %}
