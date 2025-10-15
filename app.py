@@ -161,7 +161,7 @@ def view_results():
         _results[_domain] = _cats
 
     if len(_results) == 0:
-        _results = {'Divers': {'Chanceux': ['Rentier']}}
+        _results = {'Rêve': {'Inaccessible': ['Rentier']}}
 
     return render_template('view_results.html', results=_results)
 
