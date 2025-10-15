@@ -182,6 +182,7 @@
   domain: Commerce, vente et marketing
   categories_retrait_oui:
     - marketing
+    - approvisionnement
   categories_retrait_non:
     - vente/achat
     - vente/commerce international
